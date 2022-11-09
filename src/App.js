@@ -1,14 +1,16 @@
-import Carousel from "./components/Carousel";
 import * as React from "react";
 import { AppBar, Box, Breadcrumbs, IconButton, Link, Toolbar, Typography } from "@mui/material";
-import { AccountCircleRounded, Menu } from "@mui/icons-material";
+import { AccountCircleRounded } from "@mui/icons-material";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
 
 
 export default function App() {
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" color="transparent">
+      <Box sx={{ flexGrow: 1, mb: "10px" }}>
+        <AppBar position="static" color="transparent" sx={{  }}>
           <Toolbar variant="dense">
             <IconButton
               edge="start"
@@ -35,9 +37,10 @@ export default function App() {
           </Toolbar>
         </AppBar>
       </Box>
-
-      <Carousel />
-      <p>Testing hello</p>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="project/:projectName" element={<Project/>}/>
+      </Routes>
     </>
   );
 }
