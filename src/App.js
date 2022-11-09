@@ -1,13 +1,8 @@
 import Carousel from "./components/Carousel";
 import * as React from "react";
-import { AppBar, Box, IconButton, Link, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Breadcrumbs, IconButton, Link, Toolbar, Typography } from "@mui/material";
 import { AccountCircleRounded, Menu } from "@mui/icons-material";
-// import AppBar from "@mui/material/AppBar";
-// import Box from "@mui/material/Box";
-// import Toolbar from "@mui/material/Toolbar";
-// import Typography from "@mui/material/Typography";
-// import IconButton from "@mui/material/IconButton";
-// import MenuIcon from "@mui/icons-material/Menu";'
+
 
 export default function App() {
   return (
@@ -26,10 +21,17 @@ export default function App() {
               <AccountCircleRounded fontSize="large" color="info"/>
               </a>
               
-            </IconButton>
-            <Typography variant="h6" color="inherit" component="div">
+            </IconButton> 
+            <Typography variant="h6" color="inherit" component="div" sx={{ flexGrow: 2 }}>
               Michael Counseller
             </Typography>
+
+              <Breadcrumbs>
+                <Link underline="hover" href="/">Home</Link>
+                <Link underline="hover" href="">Project 1</Link>
+                <Link underline="hover" href="">Project 2</Link>
+                <Link underline="hover" href="">Project 3</Link>
+              </Breadcrumbs>
           </Toolbar>
         </AppBar>
       </Box>
