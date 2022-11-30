@@ -2,25 +2,29 @@
     {
         "id": 1,
         "key": "Exercise Tracker",
-        "desc": "something something",
-        "image": "https://pbs.twimg.com/media/FDC8iXXWEAcrElr.jpg:large"
+        "desc": "Use the kanban board to track your excercises!",
+        "image": "https://i.imgur.com/2RdPTPM.png",
+        "link": "https://github.com/blopDev/Exercise-Tracker"
     },
     {
         "id": 2,
-        "key": "Exercise Tracker",
-        "desc": "something something",
-        "image": "https://www.nawpic.com/media/2020/pokemon-halloween-nawpic-4.jpg"
+        "key": "Quiz",
+        "desc": "Can you beat this quiz? Test your knowledge and place your highscore!",
+        "image": "https://i.imgur.com/iqkwzN4.png",
+        "link": "https://github.com/blopDev/quiz"
     },
     {
         "id": 3,
-        "key": "Exercise Tracker",
-        "desc": "something something",
-        "image": "https://pbs.twimg.com/media/E9NYsEUXIAcX3rs.jpg:large"
+        "key": "Password Generator",
+        "desc": "Generate a purely random password using the Fisher-Yates alogrithm",
+        "image": "https://i.imgur.com/fhCypR9.png",
+        "link": "https://github.com/blopDev/password-gen"
     },
     {
         "id": 4,
-        "key": "Exercise Tracker",
-        "desc": "something something",
-        "image": "https://pbs.twimg.com/media/ECEWECSU0AAO25i.jpg"
+        "key": "Poke Search",
+        "desc": "A searchable table of every the pokemon. Specific information can be accessed by clicking your desired Pokemon!",
+        "image": "https://i.imgur.com/ESusDWx.png",
+        "link": "https://github.com/blopDev/PokeSearch"
     }
 ]
